@@ -1,6 +1,6 @@
 {
   "name": "vue-monaco-refined",
-  "version": "0.4.0",
+  "version": "0.4.2",
   "description": "MonacoEditor component for Vue.js",
   "repository": {
     "url": "zsgsdesign/vue-monaco-refined",
@@ -23,7 +23,15 @@
   "license": "MIT",
   "dependencies": {
     "monaco-editor": "^0.30.0",
-    "nano-assign": "^1.0.0"
+    "nano-assign": "^1.0.0",
+    "vue-demi": "^0.12.1"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.4.0",
+    "vue": "^2.0.0 || >=3.0.0"
+  },
+  "publishConfig":{
+    "registry": "https://registry.npmjs.org"
   },
   "devDependencies": {
     "@vue/composition-api": "^1.4.0",
@@ -34,7 +42,6 @@
     "poi": "^12.2.14",
     "prettier": "^1.18.2",
     "vue": "^2.5.21",
-    "vue-demi": "^0.12.1",
     "vue-template-compiler": "^2.5.21",
     "xo": "^0.24.0"
   },
